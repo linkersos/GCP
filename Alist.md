@@ -12,10 +12,13 @@ curl -fsSL "https://alist.nn.ci/v3.sh" | bash -s update
 ```
 curl -fsSL "https://alist.nn.ci/v3.sh" | bash -s uninstall
 ```
-小雅标准模式
+小雅
+
+标准模式
 ```
 bash -c "$(curl http://docker.xiaoya.pro/update_new.sh)"
 ```
+host模式
 ```
 bash -c "$(curl http://docker.xiaoya.pro/update_new.sh)" -s host
 ```
