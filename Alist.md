@@ -22,3 +22,5 @@ host模式
 ```
 bash -c "$(curl http://docker.xiaoya.pro/update_new.sh)" -s host
 ```
+阿里token
+https://aliyuntoken.vercel.app/
