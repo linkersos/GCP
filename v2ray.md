@@ -14,3 +14,9 @@ bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/
 ```
 bash <(curl -s -L https://git.io/v2rayinstall.sh)
 ```
+MTProxy
+```
+rm -rf /home/mtproxy && mkdir /home/mtproxy && cd /home/mtproxy
+curl -fsSL -o mtproxy.sh https://github.com/ellermister/mtproxy/raw/master/mtproxy.sh
+bash mtproxy.sh
+```
