@@ -1,32 +1,6 @@
 # Google-Drive_Rclone_Aria2
 GCP挂载Google Drive并通过aria2下载资源自动上传至网盘并删除本地文件
 
-#进入ROOT用户
-```
-sudo -i
-```
-
-#设置ROOT密码
-```
-passwd
-```
-```
-vim /etc/ssh/sshd_config
-```
-```
-PermitRootLogin no   #修改为yes
-```
-```
-PasswordAuthentication no   #修改为yes
-```
-
-#重启ssh服务使修改生效
-
-```
-/etc/init.d/ssh restart
-```
-
-
 #安装wget
 ```
 apt-get install wget
